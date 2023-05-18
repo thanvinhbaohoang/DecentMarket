@@ -11,12 +11,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="mx-auto w-full flex flex-col items-center text-white bg-slate-950">
+    <div className="flex flex-col items-center text-white bg-gray-900 overflow-hidden">
       <Navbar />
       <Hero />
       <Products />
+ 
 
-      <div className="h-[100vh]"></div>
+  
+
       <Footer />
     </div>
   )

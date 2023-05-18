@@ -5,7 +5,7 @@ import Cart from "./Cart";
 export default function Navbar() {
     return (
         
-<nav className=" dark:bg-gray-900 p-4 px-48  w-full text-md flex justify-between items-center  ">
+<nav className=" dark:bg-gray-900 p-4 px-48  w-screen text-md flex justify-between items-center  ">
   <a href="https://flowbite.com/" className="flex items-center">
       <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DecentMarket</span>

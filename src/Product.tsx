@@ -4,23 +4,17 @@ import React from "react";
 export default function Product() {
 
 return (
-    <div className="flex flex-col group cursor-pointer bg-slate-800 rounded-xl p-4" >
-            <a href="#"className="border h-[20vh] border-teal-200  group-hover:outline-double outline-orange-500 outline-2 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 group-hover:scale-[1.01] transition ">
-                <img className="object-cover h-full rounded-t-lg" src="https://imgv3.fotor.com/images/blog-cover-image/Image-Upscaler-2.jpg" alt="" />
-            </a>
-
-                <a href="#" className="my-4 w-full flex items-center justify-between">
-                    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EtherStream</h5>
-                    <p className=" text-lg font-bold"> $10-$1000</p>
-                </a>
-                
-               <div className="flex">
+    <a href="#" class="group">
+    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7 group-hover:scale-[105%] group-hover:outline-dashed outline-2 outline-offset-4 outline-teal-400 transition ease-out ">
+      <img src="https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center group-hover:opacity-75 "></img>
+    </div>
+    <h3 class="mt-4 text-sm text-gray-200">Earthen Bottle</h3>
+    <p class="mt-1 text-lg font-medium text-gray-300">$48</p>
+  </a>
 
                 
           
 
-               </div>
-        </div>
 )
 
 }
